@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#gameCanvas {
+    box-shadow: 10px 10px 20px black;
+}
+body {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(rgb(23, 34, 177) 0%, rgb(15, 184, 133) 100%);
+}
+h1 {
+    margin: 2em 0 0.5em 0;
+}
+h3 {
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+h1, h3 {
+    text-align: center;
+    font-family: comic sans MS;
+    color: lightgray;
+}
+h1:hover {
+    color: rgb(247, 250, 102);
+    transition: all 0.5s ease;
+}
